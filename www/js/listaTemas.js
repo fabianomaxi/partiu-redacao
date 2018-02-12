@@ -1,5 +1,6 @@
 function listaTemas() {
 
+/*
     var url="http://partiuredacao.com.br/controlersApp/listaTemas.php";
 
     $("#temas").append("Carregando...");
@@ -21,6 +22,9 @@ function listaTemas() {
       });
 
     });
+    */
+
+    alert("oi") ;
 
 }
 

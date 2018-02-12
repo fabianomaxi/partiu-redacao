@@ -5,12 +5,16 @@ function listaTemas() {
 
     $("#temas").append("Carregando...");
 
+alert("0")
     $.getJSON(url,function(result){
 
       // console.log(result);
+      alert("1")
 
       $("#temas").html("");      
       $.each(result, function(i, field){
+
+        alert("2")
 
         var titulo = field.titulo;
         var descricao = field.descricao;
@@ -22,6 +26,8 @@ function listaTemas() {
       });
 
     });
+
+    alert("fim")
 
 }
 
